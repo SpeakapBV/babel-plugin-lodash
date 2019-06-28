@@ -5,11 +5,13 @@ A simple transform to cherry-pick Lodash modules so you don’t have to.
 Combine with [lodash-webpack-plugin](https://www.npmjs.com/package/lodash-webpack-plugin)
 for even smaller cherry-picked builds!
 
+*This fork includes [PR to support explicit chain sequences](https://github.com/lodash/babel-plugin-lodash/pull/176)*
+
 ## Install
 
 ```shell
 $ npm i --save lodash
-$ npm i --save-dev babel-plugin-lodash @babel/cli @babel/preset-env
+$ npm i --save-dev git+ssh://git@github.com/SpeakapBV/babel-plugin-lodash.git @babel/cli @babel/preset-env
 ```
 
 ## Example
